@@ -1,0 +1,8 @@
+{
+  "name": "kirby-panel-brand",
+  "description": "Makes it easier to see when you are in the wrong or right panel.",
+  "author": "Jens Törnell <jens.tornell@gmail.com>",
+  "version": "0.1",
+  "type": "kirby-plugin",
+  "license": "MIT"
+}

@@ -2,7 +2,7 @@
 
 *Version 0.1*
 
-When having multiple environment, it's easy to pick the wrong Panel, at least for me.
+When having multiple environments (local, development and production) and all the panels look the same, it can be easy to be in the wrong Panel.
 
 This plugin add a bar with background color and a text of your choice to make it easier to be alerted when you are in the wrong or right Panel.  
 
