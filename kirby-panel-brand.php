@@ -7,7 +7,7 @@ if( site()->user() ) {
 			'pattern' => 'panel-brand.css',
 			'action' => function() {
 				header("Content-type: text/css; charset: UTF-8");
-				$css_path = kirby()->roots()->plugins() . DS . 'panel-brand' . DS . 'assets' . DS . 'css' . DS . 'panel-brand.css';
+				$css_path = kirby()->roots()->plugins() . DS . 'kirby-panel-brand' . DS . 'assets' . DS . 'css' . DS . 'panel-brand.css';
 				$css = file_get_contents($css_path);
 				$css = str_replace(
 					array(
