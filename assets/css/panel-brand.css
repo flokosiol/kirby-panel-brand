@@ -1,0 +1,21 @@
+.app:before {
+	content: '[text]';
+	background: [background];
+	color: [color];
+	display: block;
+	height: 3em;
+	line-height: 3em;
+	padding: 0 20px;
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+
+.topbar {
+	margin-top: 3em;
+}
+
+.fileview-preview-link, .main {
+	margin-top: 3em;
+	height: calc(100% - 3em);
+}
