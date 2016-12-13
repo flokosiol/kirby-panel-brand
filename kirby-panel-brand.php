@@ -1,8 +1,9 @@
 <?php
+if(c::get('plugin.panel.brand.enable', true) === true ) {
 if( site()->user() ) {
 	kirby()->set('option', 'panel.stylesheet', u() . '/panel-brand.css');
 
-	kirby()->routes(array( 
+	kirby()->routes(array(
 		array(
 			'pattern' => 'panel-brand.css',
 			'action' => function() {
@@ -26,4 +27,5 @@ if( site()->user() ) {
 			}
 		)
 	));
+};
 }

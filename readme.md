@@ -1,6 +1,6 @@
 # Kirby Panel Brand
 
-*Version 0.1*
+*Version 0.2*
 
 When having multiple environments (local, development and production) and all the panels look the same, it can be easy to be in the wrong Panel.
 
@@ -48,6 +48,7 @@ $ git submodule add https://github.com/username/kirby-panel-brand site/plugins/k
 The following options can be set in your `/site/config/config.php` file:
 
 ```php
+c::set('plugin.panel.brand.enable', true);  // False in production for ex.
 c::set('plugin.panel.brand.text', 'Panel Brand');
 c::set('plugin.panel.brand.background', '#ae287f');
 c::set('plugin.panel.brand.color', '#fff');
