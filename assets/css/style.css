@@ -1,0 +1,12 @@
+.k-topbar {
+    height: calc(2.5rem + .5rem);
+}
+
+.k-topbar:before {
+    content: '';
+    display: block;
+    height: .5rem;
+    background: {{ background }};
+    margin-top: -1px;
+    z-index: 2;
+}
