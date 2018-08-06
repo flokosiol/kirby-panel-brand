@@ -13,7 +13,7 @@ To separate different environments from each other, it can be useful to put a di
 
 ## Options
 
-You can add the below to a localhost environment with `config.localhost.php`:
+For example, you can add the below to a localhost environment with `config.localhost.php`:
 
 ```php
 return [
